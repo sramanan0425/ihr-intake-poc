@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/logback.xml,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/logback-test.xml,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/logback-test.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/messages,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/messages)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/illuminati-templates,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/illuminati-templates)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/akka.conf,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/akka.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/application.conf,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/routes,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/sudha-ramanan/ihr-intake-poc/web/conf/illuminati-templates/ihrintake.json,/Users/sudha-ramanan/ihr-intake-poc/web/target/scala-2.11/classes/illuminati-templates/ihrintake.json)[0m

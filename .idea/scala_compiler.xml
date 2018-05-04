@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="ihr-intake-poc_4007" />
+    <profile name="sbt 2" modules="root,models">
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Xlint" />
+        <parameter value="-deprecation:false" />
+        <parameter value="-Xfuture" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-adapted-args" />
+      </parameters>
+    </profile>
+    <profile name="sbt 3" modules="web">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Xlint" />
+        <parameter value="-deprecation:false" />
+        <parameter value="-Xfuture" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-adapted-args" />
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xlint:-missing-interpolator" />
+      </parameters>
+    </profile>
+  </component>
+</project>
