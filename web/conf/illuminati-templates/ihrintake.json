@@ -1,0 +1,15 @@
+{
+  "templateVersion": 1,
+  "serviceName": "ihrintake",
+  "rootServicePath": "ihrintake",
+  "paths": {
+    "ihrintake.play.secret": {},
+    "ihrintake.secure.logging.encryptkey": {},
+    "ihrintake.secure.logging.initvector": {},
+    "ihrintake.optum.oauth.client.id": {},
+    "ihrintake.optum.oauth.client.secret": {},
+    "ihrintake.encrypt.key.service": {},
+    "ihrintake.secure.logging.initvector": {},
+    "ihrintake.postgres.db.password": {}
+  }
+}

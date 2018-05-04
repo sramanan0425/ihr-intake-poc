@@ -1,0 +1,13 @@
+# Routes
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+POST         /greet                       com.rallyhealth.ihrintake.controllers.GreetController.greet
+
+POST         /ihr/summary/v1     com.rallyhealth.ihrintake.controllers.IHRController.getIHRSummary
+POST         /ihr/allergies/v1     com.rallyhealth.ihrintake.controllers.IHRController.getIHRAllergy
+POST         /ihr/conditions/v1     com.rallyhealth.ihrintake.controllers.IHRController.getIHRCondition
+
+#Health Check endpoint
+->          /rest/ops                    opsStatic.Routes
