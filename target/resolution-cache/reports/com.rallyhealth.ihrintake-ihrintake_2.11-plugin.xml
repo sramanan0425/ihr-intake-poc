@@ -4,10 +4,10 @@
 	<info
 		organisation="com.rallyhealth.ihrintake"
 		module="ihrintake_2.11"
-		revision="1.0.0-1-b7b1008-SNAPSHOT"
+		revision="1.0.0-2-f699309-dirty-SNAPSHOT"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, aspectj-runner, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20180503163412"/>
+		date="20180507095316"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

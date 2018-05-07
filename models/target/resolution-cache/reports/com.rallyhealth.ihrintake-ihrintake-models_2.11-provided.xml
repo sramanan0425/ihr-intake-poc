@@ -4,16 +4,16 @@
 	<info
 		organisation="com.rallyhealth.ihrintake"
 		module="ihrintake-models_2.11"
-		revision="1.0.0-1-b7b1008-SNAPSHOT"
+		revision="1.0.0-2-f699309-dirty-SNAPSHOT"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, aspectj-runner, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20180503163305"/>
+		date="20180504163515"/>
 	<dependencies>
 		<module organisation="com.softwaremill.macwire" name="macros_2.11">
 			<revision name="2.3.0" status="release" pubdate="20170202055604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.softwaremill.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="Apache2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/sudha-ramanan/.ivy2/cache/com.softwaremill.macwire/macros_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.11/2.3.0/macros_2.11-2.3.0.pom"/>
-				<caller organisation="com.rallyhealth.ihrintake" name="ihrintake-models_2.11" conf="provided" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-1-b7b1008-SNAPSHOT"/>
+				<caller organisation="com.rallyhealth.ihrintake" name="ihrintake-models_2.11" conf="provided" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0-2-f699309-dirty-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="macros_2.11" type="jar" ext="jar" status="no" details="" size="225939" time="0" location="/Users/sudha-ramanan/.ivy2/cache/com.softwaremill.macwire/macros_2.11/jars/macros_2.11-2.3.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.11/2.3.0/macros_2.11-2.3.0.jar"/>
