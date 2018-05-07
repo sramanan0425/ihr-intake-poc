@@ -26,7 +26,7 @@ case class IhrIntakeConfig(
     new KeyParameter(encryptKey)
   }
 
-  lazy val datashipApiEncryptionService: NeoEncryptionService = {
+  lazy val ihrIntakeApiEncryptionService: NeoEncryptionService = {
     val cipherProvider = new GCMCipherProvider(keyParameter)
     new NeoEncryptionServiceImpl(cipherProvider)
   }

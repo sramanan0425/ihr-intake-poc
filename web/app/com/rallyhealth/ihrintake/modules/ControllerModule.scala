@@ -23,7 +23,7 @@ trait ControllerModule {
   * All Controller Dependencies are defined here.
   */
 case class ControllerModuleImpl(serviceModule: ServiceModule, configModule: ConfigModule)(implicit ec: ExecutionContext) extends ControllerModule {
-  implicit val apiNeoEncryptionService: NeoEncryptionService = configModule.ihrIntakeConfig.datashipApiEncryptionService
+  implicit val apiNeoEncryptionService: NeoEncryptionService = configModule.ihrIntakeConfig.ihrIntakeApiEncryptionService
   override lazy val greetController: GreetController = wire[GreetControllerImpl]
   override lazy val opsMonitorController: StandardOpsController = wire[StandardOpsController]
   override lazy val ihrController: IHRController=wire[IHRControllerImpl]

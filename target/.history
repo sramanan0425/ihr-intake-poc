@@ -2,3 +2,4 @@ quit
 exit
 sbt compile
 exit
+project web
